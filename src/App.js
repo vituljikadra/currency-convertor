@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import InputBox from "./components/Inputbox.jsx";
 import Usecure from "./hooks/Usecure";
 
@@ -79,6 +80,7 @@ const App = () => {
           </form>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 };
